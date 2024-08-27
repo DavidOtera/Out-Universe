@@ -1,0 +1,75 @@
+/* GeoEntities.css */
+
+.geo-entities {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-family: 'Segoe UI Semibold', sans-serif;
+    font-size: 32px;
+    color: #003333;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #3366ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    flex: 1; /* Make buttons expand equally */
+    margin: 0 5px; /* Add space between buttons */
+}
+
+.btn.back {
+    background-color: #cc0033;
+    width: 100px;
+}
+
+.btn.refresh {
+    background-color: #009933;
+    width: 150px;
+}
+
+.table-container {
+    margin-bottom: 20px;
+}
+
+.geo-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.geo-table th,
+.geo-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.geo-table th {
+    background-color: #f2f2f2;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}

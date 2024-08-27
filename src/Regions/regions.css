@@ -1,0 +1,90 @@
+/* Regions.css */
+body {
+    font-family: 'Segoe UI Semibold', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.header {
+    font-size: 32px;
+    color: #330066;
+    text-align: left;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Label styling */
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+}
+
+/* Input field styling */
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button styling */
+.button {
+    width: 100px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-save {
+    background-color: #339900;
+}
+
+.button-back {
+    background-color: #cc0000;
+}
+
+.button-search {
+    background-color: #339900;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #339900a2;
+}
+
+/* Alignment */
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .label{
+      flex-direction: column; /* Stack fields vertically on smaller screens */
+      margin-right: 0; /* Remove right margin when stacked */
+    }
+  }
